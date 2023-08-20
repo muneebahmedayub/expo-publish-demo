@@ -31,5 +31,8 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
+      - name: Install Expo
+        run: yarn global add expo-cli
+
       - name: Publish
-        run: npx expo-cli publish
+        run: expo publish
