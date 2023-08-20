@@ -32,4 +32,4 @@ jobs:
         run: yarn install
 
       - name: Publish
-        run: npx expo publish
+        run: npx expo-cli publish
